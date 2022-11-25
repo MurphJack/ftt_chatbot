@@ -1,0 +1,29 @@
+{"intents": [
+	{"tag": "greeting",
+	 "patterns": ["Hi there", "How are you", "Hello"],
+	 "responses": ["Hello im good, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+	 "context": [""]
+	},
+	{"tag": "noanswer",
+	 "patterns": [""],
+	 "responses": ["Sorry, didnt quite catch that", "please try again", "I do not understand"],
+	 "context": [""]
+	},
+	
+	{"tag": "Goodbye",
+	 "patterns": ["goodbye", "thanks for your help", "bye"],
+	 "responses": ["Glad to help", "Have a good day", "No Problem, Anytime"],
+	 "context": [""]
+	},
+	{"tag": "options",
+	 "patterns": ["what can you do", "how can you help"],
+	 "responses": ["Im the customer support chatbot, any queries relating your account i will be more than happy to help"],
+	 "context": [""]
+	}, 
+	{"tag": "help",
+	 "patterns": ["I need help", "my stocks arent showing", "i cant login"],
+	 "responses": ["Im happy to help, can you explain what it is that is wrong", "I can Help! please tell me a bit more", "i will be right with you, please explain your issue."],
+	 "context": [""]
+	}
+]
+}
